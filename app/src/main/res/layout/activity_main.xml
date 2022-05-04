@@ -43,24 +43,28 @@
             android:id="@+id/btSomar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="somar"
             android:text="Somar" />
 
         <Button
             android:id="@+id/btSubtrair"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="subtrair"
             android:text="Subtrair" />
 
         <Button
             android:id="@+id/btMultiplicar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="multiplicar"
             android:text="Multiplicar" />
 
         <Button
             android:id="@+id/btDividir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="dividir"
             android:text="Dividir" />
 
         <TextView
